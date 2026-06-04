@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "declaration": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "lib": ["ES2022"],
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "typebox": ["../../.nvm/versions/node/v24.16.0/lib/node_modules/openclaw/node_modules/typebox/build/index.d.mts"],
+      "openclaw/plugin-sdk/tool-plugin": ["../../.nvm/versions/node/v24.16.0/lib/node_modules/openclaw/dist/plugin-sdk/tool-plugin.d.ts"],
+      "bosch-smart-home-bridge": ["node_modules/bosch-smart-home-bridge/dist/index.d.ts"]
+    }
+  },
+  "include": [
+    "src/index.ts"
+  ]
+}

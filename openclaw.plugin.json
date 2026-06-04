@@ -1,0 +1,31 @@
+{
+  "id": "bosch-smarthome",
+  "name": "Bosch Smart Home",
+  "description": "Control Bosch Smart Home devices, scenarios, and alarm system via the local REST API.",
+  "version": "0.1.0",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  },
+  "activation": {
+    "onStartup": true
+  },
+  "contracts": {
+    "tools": [
+      "bosch_pair",
+      "bosch_status",
+      "bosch_list_rooms",
+      "bosch_list_devices",
+      "bosch_get_device",
+      "bosch_get_device_services",
+      "bosch_set_state",
+      "bosch_list_scenarios",
+      "bosch_trigger_scenario",
+      "bosch_get_alarm_state",
+      "bosch_arm_alarm",
+      "bosch_disarm_alarm",
+      "bosch_list_messages"
+    ]
+  }
+}
