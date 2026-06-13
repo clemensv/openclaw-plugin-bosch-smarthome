@@ -19,7 +19,7 @@
     "openclaw": ">=2026.5.17"
   },
   "dependencies": {
-    "typebox": "^1.1.38",
+    "typebox": "^1.2.8",
     "bosch-smart-home-bridge": "^1.8.1"
   },
   "devDependencies": {
